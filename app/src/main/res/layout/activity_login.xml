@@ -48,6 +48,16 @@
             android:inputType="textPassword"
             android:padding="15dp"
             android:textSize="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:backgroundTint="#1877f2"
+            android:padding="15dp"
+            android:text="Log in"
+            android:textSize="16dp"
+            android:onClick="lojin"/>
     </LinearLayout>
 
 

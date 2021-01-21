@@ -13,12 +13,12 @@
         android:text="SELAMAT DATENG"
         android:textAlignment="center"
         android:textColor="#ddd"
-        android:textStyle="bold"
-        android:textSize="24dp" />
+        android:textSize="24dp"
+        android:textStyle="bold" />
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="520dp"
+        android:layout_height="480dp"
         android:src="@drawable/youtube"
         android:textAlignment="center" />
 
@@ -32,6 +32,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="masukin"
             android:text="Login."
             android:textColor="#ccc" />
 
@@ -39,13 +41,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:onClick="masukin"
             android:text="Don't have an account?"
             android:textColor="#999" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:onClick="singUp"
             android:text="Sing Up"
             android:textColor="#ccc" />
