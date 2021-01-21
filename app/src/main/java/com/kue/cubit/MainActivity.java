@@ -28,4 +28,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, Singup.class);
         startActivity(i);
     }
+
+    public void quickie(View view) {
+        Intent i = new Intent(MainActivity.this, CounterStrike.class);
+        startActivity(i);
+    }
 }
