@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Pwpbmodul5">
-        <activity android:name=".CounterStrike"></activity>
+        <activity android:name=".HasilPilkades"></activity>
+        <activity android:name=".CounterStrike" />
         <activity android:name=".Daftarin" />
         <activity android:name=".Singup" />
         <activity android:name=".LoginTampol" />

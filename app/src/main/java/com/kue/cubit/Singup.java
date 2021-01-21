@@ -19,10 +19,10 @@ public class Singup extends AppCompatActivity {
         Intent i = new Intent(Singup.this, Daftarin.class);
 
         EditText mail = findViewById(R.id.mail);
-        i.putExtra("mail",mail.getText().toString());
+        i.putExtra("mail", mail.getText().toString());
 
         EditText tetel = findViewById(R.id.tetel);
-        i.putExtra("tetel",tetel.getText().toString());
+        i.putExtra("tetel", tetel.getText().toString());
 
         startActivity(i);
     }

@@ -2,6 +2,7 @@ package com.kue.cubit;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -52,5 +53,17 @@ public class CounterStrike extends AppCompatActivity {
 
         }
 
+    }
+
+    public void hasil(View view) {
+        Intent i = new Intent(CounterStrike.this, HasilPilkades.class);
+
+        TextView paslonA = findViewById(R.id.sekorA);
+        TextView paslonB = findViewById(R.id.sekorB);
+
+        i.putExtra("paslonA", paslonA.getText().toString());
+        i.putExtra("paslonB", paslonB.getText().toString());
+
+        startActivity(i);
     }
 }
