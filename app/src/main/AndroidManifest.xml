@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Pwpbmodul5">
-        <activity android:name=".LoginTampol"></activity>
+        <activity android:name=".Daftarin"></activity>
+        <activity android:name=".Singup" />
+        <activity android:name=".LoginTampol" />
         <activity android:name=".Login" />
         <activity android:name=".Stream" />
         <activity android:name=".MainActivity">

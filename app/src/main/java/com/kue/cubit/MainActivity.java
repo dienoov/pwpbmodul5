@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void singUp(View view) {
-        Intent i = new Intent(MainActivity.this, Login.class);
+        Intent i = new Intent(MainActivity.this, Singup.class);
         startActivity(i);
     }
 }

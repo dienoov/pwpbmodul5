@@ -14,7 +14,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-    protected void lojin(View view) {
+    public void lojin(View view) {
         Intent i = new Intent(Login.this, LoginTampol.class);
         startActivity(i);
     }
